@@ -31,8 +31,8 @@ Single unit data has form of [[7,8,9],[4,5,6],[B,2,3]].
 하나의 단위 데이터는 [[7,8,9],[4,5,6],[B,2,3]] 의 형태를 가지고 있습니다.
 
 ## Result_DB.csv
-This csv file contains every possible cases of 3x3 Slide puzzle but unlike 'Possible_case.csv', it also contains movement data and indexs of mother-state\
-Single unit data has form of [[[7,8,9],[4,5,6],[B,2,3]],M] (M is the mother-state-index)/
+This csv file contains every possible cases of 3x3 Slide puzzle but unlike 'Possible_case.csv', it also contains movement data and indexs of mother-state.\
+Single unit data has form of [[[7,8,9],[4,5,6],[B,2,3]],M]. (M is the mother-state-index)/
 Unit datas are stored in list which every elements in list had same amount of movement./
 [Unit data with 1 move 1, Unit data with 1 move 2, ...],[Unit data with 2 move 1, Unit data with 2 move 2, ...],...
 
