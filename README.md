@@ -37,8 +37,8 @@ Unit datas are stored in list which every elements in list had same amount of mo
 [Unit data with 1 move 1, Unit data with 1 move 2, ...],[Unit data with 2 move 1, Unit data with 2 move 2, ...],...
 
 이 csv 파일은 3x3 슬라이드 퍼즐에서 가능한 모든 퍼즐의 상태를 저장하지만 'Possible_case.csv' 파일과는 달리 이동 횟수와 이전 상태의 퍼즐의 인덱스의 정보도 포함하고 있습니다.
-하나의 단위 데이터는 [[[7,8,9],[4,5,6],[B,2,3]],M] 의 형태를 가지고 있습니다. (M은 이전 상태 인덱스)
-단위 데이터들은 같은 이동횟수를 가진 단위 데이터들과 같이 리스트에 저장되어 있습니다.
+하나의 단위 데이터는 [[[7,8,9],[4,5,6],[B,2,3]],M] 의 형태를 가지고 있습니다. (M은 이전 상태 인덱스)\
+단위 데이터들은 같은 이동횟수를 가진 단위 데이터들과 같이 리스트에 저장되어 있습니다.\
 [1회 이동한 단위 데이터 1, 1회 이동한 단위 데이터 2, ...],[2회 이동한 단위 데이터 1, 2회 이동한 단위 데이터 2 ...],...
 
 ## samples.csv
