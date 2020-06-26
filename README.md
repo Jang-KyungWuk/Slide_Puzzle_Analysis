@@ -7,10 +7,18 @@ This git has made for Slide Puzzle analysis which is from mobile game 'Last Orig
 There're 2 ipynb file and 4 csv files in this repository on 2020-06-25.\
 이 저장소에는 2020-06-25 기준으로 2개의 ipynb 파일과 4개의 csv 파일이 있습니다.
 
->1. Last_Origin_Slide_Puzzle_Analysis_with_analysis_final_loading_version.ipynb
->2. Possible_case.csv
->3. Result_DB.csv
->4. samples.csv
+>1. How_many_samples_will_I_need.ipynb
+>2. Last_Origin_Slide_Puzzle_Analysis.ipynb
+>3. Pattern_probability_that_already_seen.ipynb
+>4. Possible_case.csv
+>5. README.md
+>6. Result_DB.csv
+>7. Sample_Data_Extractor.ipynb
+>8. samples (80 hand typed).csv
+>9. samples.csv
+
+## How_many_samples_will_I_need.ipynb
+
 
 ## Last_Origin_Slide_Puzzle_Analysis_with_analysis_final_loading_version.ipynb
 This ipynb file is written in python 3.\
@@ -22,6 +30,9 @@ Once simulation or loading from csv files is done, it start analysis by using da
 A* 알고리즘을 통해 n x m 사이즈의 슬라이드 퍼즐의 모든 가능한 상태를 탐색하고 그 결과를 csv 파일로 저장하는 코드입니다.\
 결과는 Possible_case_csv와 Result_DB.csv 두 개의 파일로 저장됩니다.\
 시뮬레이션 혹은 csv 파일의 로딩이 완료되면 'samples.csv' 파일의 데이터를 불러와서 분석을 시작합니다.
+
+## Pattern_probability_that_already_seen.ipynb
+
 
 ## Possible_case.csv
 This csv file contains every possible cases of 3x3 Slide puzzle.\
